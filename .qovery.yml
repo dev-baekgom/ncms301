@@ -1,0 +1,11 @@
+---
+application:
+  name: "ncms301"
+  project: "ncms"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-ncms301"
+  routes:
+  - application_name: "ncms301"
+    paths:
+    - "/*"
